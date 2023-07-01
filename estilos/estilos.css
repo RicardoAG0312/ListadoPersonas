@@ -1,0 +1,51 @@
+html{
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: url(fondo.png), linear-gradient(to left, skyblue, rgba(0, 0, 255, 0.607))
+}
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.titulo{
+    background-color: #1B4F72;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.guardar-lista{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 200px;
+}
+.listado{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 100%;
+    padding: 10px;
+}
+.listado input{
+    border: none;
+    text-align: center;
+}
+.listado button{
+    border-radius: 50%;
+}
